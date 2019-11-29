@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
   },
   text: {
       color: 'white',
-      fontStyle: 'montserratregular'
+      // fontStyle: 'montserratregular'
   }
 });

@@ -73,7 +73,7 @@ class CircularProgressBar extends React.Component {
               fill='white'
               fontSize="30"
               textAnchor='middle'
-              fontFamily = 'montserrat'>
+              fontFamily = 'Montserrat-Regular'>
               {`${this.props.temperature}°`}
             </Text>
         </Svg>
