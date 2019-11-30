@@ -70,7 +70,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   button: {
-    padding:15,
+    fontFamily: 'montserrat-regular',
+    padding: 15,
     fontSize: 50,
     color: 'white'
   }

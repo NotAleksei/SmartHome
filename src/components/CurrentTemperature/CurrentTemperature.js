@@ -46,11 +46,13 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     color: '#A0A7C2',
     fontSize: 30,
+    fontFamily: 'montserrat-regular',
     textAlignVertical: 'bottom',
     includeFontPadding: false,
   },
   currentText: {
     color: 'white',
-    fontSize: 12
+    fontSize: 12,
+    fontFamily: 'montserrat-regular',
   },
 });

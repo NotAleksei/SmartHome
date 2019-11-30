@@ -1,12 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
 import { NativeRouter, Route, Link } from "react-router-native";
 import Layout from './src/hoc/Layout'
 import HomePage  from './src/hoc/HomePage/'
+import * as Font from 'expo-font';
 
 
 
-export default function App() {
+class App extends React.Component {
+
+
+  render(){
   return (
     <NativeRouter>
       <Layout>
@@ -19,4 +23,6 @@ export default function App() {
     
   );
 }
+}
 
+export default App

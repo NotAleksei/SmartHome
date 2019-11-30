@@ -7,7 +7,7 @@ import NavButton from '../../../components/UI/NavButton/NavButton'
 class MenuNav extends React.Component {
 
   state ={
-    home: false,
+    home: true,
     alerts: false,
     store: false,
     user: false,

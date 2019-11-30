@@ -48,11 +48,13 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     color: '#A0A7C2',
     fontSize: 30,
+    fontFamily: 'montserrat-regular',
     textAlignVertical: 'bottom',
     includeFontPadding: false,
   },
   currentCity: {
     color: 'white',
-    fontSize: 12
+    fontSize: 12,
+    fontFamily: 'montserrat-regular',
   },
 });
