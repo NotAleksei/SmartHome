@@ -20,5 +20,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#1D212C',
     borderTopRightRadius:20,
     borderTopLeftRadius:20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.00,
+    elevation: 24,
   },
 });

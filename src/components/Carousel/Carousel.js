@@ -10,9 +10,10 @@ class  Carousel extends React.Component{
     let height = Dimensions.get('window').height;
     let itemHeight = height/3.68
     let itemWidth = itemHeight*1.07
+    let width = Dimensions.get('window').width;
     setTimeout(() => {
-      this.snapScroll.scrollTo({x: itemWidth-itemWidth/2+30});
-  }, 1);
+      this.snapScroll.scrollTo({x: (itemWidth*3+60-width)/2});
+  }, 0);
   }
 
 render(){
@@ -60,7 +61,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#1c1e29',
     flex: 2.17,
     justifyContent: "center",
-    alignItems: 'center'
+    alignItems: 'center',
+    marginTop: 20,
   },
   image: {
       height: itemHeight,
@@ -68,6 +70,7 @@ const styles = StyleSheet.create({
       marginLeft: 10,
       marginRight: 10,
       borderRadius: 10,
+      
   }
 });
 
